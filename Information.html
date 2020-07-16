@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>PRAS VENGS</title>
+
+<!-- Link to CSS FIles -->
+<link rel="stylesheet" type="text/css" href="New.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+.button {background-color: Blue; font-size: 24px; color:white}
+.home{background-image: url("Images/Ocean.gif"); background-repeat:no-repeat ; background-size: cover; color:white}
+</style>
+</head>
+<body style="margin: 0px;">
+
+<!-- Navigation Pane -->
+<div class="pane">
+	<ul>
+  		<li><a class="active" href="#homeid">HOME</a></li>
+  		<li><a href="#educationid">EDUCATION</a></li>
+  		<li><a href="#workid">WORK</a></li>
+  		<li><a href="#aboutid">ABOUT</a></li>\
+	</ul>
+</div>
+
+<!-- Home portion of the page -->
+<div id="homeid"class ="home">
+	<br>
+	<h1 p align="center">PRASANNA VENGATESH VENKATARAMAN</h1></p>
+	<p align="center"><img src="Images/Pras Vengs.jpg" width=400 height=400><p><br>
+	<font size="5">
+	&#8195;<b>NICK NAME:</b> PRAS VENGS<br><br>
+	&#8195;<b>CURRENT DESIGNATION:</b> STUDENT<br><br>
+	&#8195;<b>CURRENT CITY:</b> CHICAGO<br><br>
+	</font>
+</div>
+
+<!-- Education Portion -->
+<div id="educationid" class="education">
+	<br>
+	<h1 p align="center">EDUCATION BACKGROUND</p></h1><br>
+	<font size="5">
+<!-- Reference to wikipedia for both colleges -->
+	<span style="margin-left:3em"><a href="https://en.wikipedia.org/wiki/Anna_University" target="_blank"><b>ANNA UNIVERSITY</b></a></span>
+	<span style="margin-left:25em"><a href="https://en.wikipedia.org/wiki/University_of_Illinois_at_Chicago" target="_blank"><b>UNIVERSITY OF ILLINOIS AT CHICAGO</b></a></span><br><br>
+
+	<span style="margin-left:3em"><img src="Images/Edu1.jpg" width=550 height=400></span>
+	<span style="margin-left:11.5em"><img src="Images/Edu2.jpg" width=550 height=400><br></span>
+
+	<span style="margin-left:3em">B.E - Electronics and Communication Engineering</span>
+	<span style="margin-left:14em">M.S - Management Information Systems<br></span>
+
+	<span style="margin-left:3em">2012 - 2016</span>
+	<span style="margin-left:29.6em">2019 - Present</span><br><br><br><br><br>
+	</font>
+</div>
+</section>
+
+<!-- Work Portion -->
+<div id="workid" class="work">
+	<h1 p align="center">WORK EXPERIENCE</p></h1>
+	<font size="5">
+	<p align="center"><b>TATA COSULTANCY SERVICES</b><br><br>
+	<img src="Images/Work.jpg" width=600 height=500><br><br>
+	Assistant Systems Engineer<br>
+	2016 - 2019</span><br><br><br></p>
+	</font>
+</div>
+
+<!-- Personal Details -->
+<div id="aboutid" class="about" >
+	<h1 p align="center">ABOUT MYSELF</p></h1>
+	<font size="5"><b>FROM:</b> CHENNAI<br><br></font>
+<!-- Hometown Images -->
+	<img src="Images/Chennai1.jpg" width=400 height=400 hspace="10">
+	<img src="Images/Chennai2.jpg" width=400 height=400 hspace="10">
+	<img src="Images/Chennai3.jpg" width=400 height=400 hspace="10"> <br><br>
+<!-- Hobbies Images -->
+	<font size="5"><br><br><b>HOBBIES:</b><br><br></font>
+	<img src="Images/Hobbies1.jpg" width=400 height=400 hspace="10">
+	<img src="Images/Hobbies2.jpg" width=400 height=400 hspace="10"> 
+	<img src="Images/Hobbies3.jpg" width=400 height=400 hspace="10"> <br><br>
+	
+<!-- Favorite Video -->	
+	<font size="5"><br><br><b>FAVORITE:</b><br></font>
+	<p align="center">
+	<video id="Despacito" width="800">
+		<source src="Images/Despacito.mp4" type="video/mp4">
+	</video>
+	
+	<br><br>
+	<button class="button" onclick="Play()">Play</button>
+	<button class="button" onclick="Pause()">Pause</button></p><br><br>
+	<p align="center"><a href="https://www.linkedin.com/in/prasannavengatesh/" target="_blank"><i class="fa fa-linkedin" style="font-size:48px"></i></p>
+	<br><br>
+</div>
+
+<!-- Function for PLay and Pause Buttons -->
+<script>
+var video = document.getElementById("Despacito");
+
+function Play()
+{ video.play(); }
+
+function Pause()
+{ video.pause(); }
+
+</script>
+
+</body>
+</html>

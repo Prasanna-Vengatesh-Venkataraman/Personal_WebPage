@@ -1,0 +1,63 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+.topnav { overflow: hidden; background-color: black;}
+.topnav a { float: left; color: white; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 17px;}
+.topnav a:hover { background-color: white; color: black;}
+.topnav a.active { background-color: ForestGreen; color: white;}
+
+.education
+{background-image: url("Images/Edubg.jpg");
+background-repeat:no-repeat ;
+background-size: cover;
+color:white; line-height: 200%;
+}
+
+.work
+{background-image: url("Images/Workbg.jpg");
+background-repeat:no-repeat ;
+background-size: cover;}
+
+.about
+{background-color:LightBlue;}
+
+.about a
+{color: black;
+background-color: transparent;}
+
+.about a:hover
+{color:red; 
+background-color: transparent;}
+
+.education a 
+{color: white; 
+background-color: transparent;}
+
+.education a:hover
+{color:red; 
+background-color: transparent;}
+
+.pane ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.pane li {
+  float: left;
+}
+
+.pane li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.pane li a:hover {
+  background-color: green;
+}
+
+
